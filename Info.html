@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <!--Font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <!--Logo-->
+        <script src="https://kit.fontawesome.com/958cab3702.js" crossorigin="anonymous"></script>
+        <!--CSS-->
+        <link rel="stylesheet" href="css/Info.css">
+        <!--CSS-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    </head>
+
+    <body>
+        <!--Nav start-->
+        <div class="block">
+            <nav class="Header">
+                <div class="logo">
+                    <a href="#"><img src="Logo.png" alt="Logo"></a>
+                </div>
+    
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Info</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <!--Nav End-->
+        <main class="container">
+            <h1>Email: <span id="Email"></span></h1>
+            <h1>Firstname: <span id="FnameDisplay"></span></h1>
+            <h1>Lastname: <span id="LnameDisplay"></span></h1>
+            <h1>PhoneNumber: <span id="PhoneDisplay"></span></h1>
+            <button class="btn btn-outline-success my-3" type="button" id="signoutbutton">Log out</button>
+        </main>
+
+        <script src="js/Info.js" type="module"></script>
+    </body>
+</html>
